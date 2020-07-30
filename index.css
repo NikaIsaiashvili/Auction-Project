@@ -1,0 +1,64 @@
+/* HEADER SECTION */
+
+header {
+    background-image: linear-gradient(rgba(59, 48, 17, 0.247), rgba(59, 48, 17, 0.247)), url(/img/main_page_header_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-pedding {
+    padding-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.container {
+    margin-top: 0;
+}
+
+.hdr-list {
+    width: 80%;
+    display: inline-block;
+}
+
+.hdr-list img {
+    float: left;
+}
+
+ul {
+    list-style: none;
+    margin-left: 12em;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+.registration a:link,
+.registration a:visited,
+ul li a:link,
+ul li a:visited {
+    text-decoration: none;
+    color: white;
+    margin-right: 2em;
+    padding-bottom: 10px;
+    transition: all 0.2s;
+    border-bottom: 2px solid transparent;
+    font-weight: 400;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+ul li a:active {
+    border-bottom: 2px solid tomato;
+}
+
+.registration {
+    width: 20%;
+    float: right;
+}
