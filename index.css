@@ -28,20 +28,20 @@ header {
     float: left;
 }
 
-ul {
+.hdr-list ul {
     list-style: none;
     margin-left: 12em;
 }
 
-li {
+.hdr-list li {
     display: inline-block;
     text-align: center;
 }
 
 .registration a:link,
 .registration a:visited,
-ul li a:link,
-ul li a:visited {
+.hdr-list ul li a:link,
+.hdr-list ul li a:visited {
     text-decoration: none;
     color: white;
     margin-right: 2em;
@@ -51,11 +51,11 @@ ul li a:visited {
     font-weight: 400;
 }
 
-ul li a:hover {
+.hdr-list ul li a:hover {
     border-bottom: 2px solid white;
 }
 
-ul li a:active {
+.hdr-list ul li a:active {
     border-bottom: 2px solid tomato;
 }
 
@@ -353,3 +353,65 @@ h6 {
 
 
 /* SECTION FOOTER */
+
+footer {
+    background-color: rgba(128, 128, 128, 0.178);
+    padding-bottom: 5%;
+}
+
+.footer-info {
+    margin-top: 20%;
+}
+
+.footer-info span {
+    padding-bottom: 2%;
+}
+
+.footer-info p {
+    margin: 8% 0;
+    font-size: 95%;
+    font-style: oblique;
+}
+
+.footer-info a:link,
+.footer-info a:visited {
+    color: black;
+}
+
+.footer-info span {
+    color: black;
+    font-weight: 500;
+}
+
+.footer-list {
+    margin-top: 5%;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list:nth-last-of-type(5) {
+    margin-top: 10%;
+}
+
+.copyright {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 95%;
+    color: rgba(0, 0, 0, 0.473);
+    font-weight: 400;
+}
+
+.copyright a:link,
+.copyright a:visited {
+    color: rgba(0, 0, 0, 0.473);
+}
+
+.heart-icon {
+    color: red;
+    font-size: 120%;
+}
