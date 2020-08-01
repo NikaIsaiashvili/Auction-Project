@@ -112,12 +112,12 @@ h1 {
     margin-top: 5%;
 }
 
-.section-pictures a {
-    text-decoration: none;
-}
-
 .pictures {
     display: block;
+}
+
+.pictures a {
+    text-decoration: none;
 }
 
 .picture-div {
@@ -161,6 +161,10 @@ h5 {
 .author {
     color: rgb(230, 93, 43);
     font-weight: 400;
+}
+
+.author:hover {
+    color: rgb(199, 57, 5);
 }
 
 .date {
