@@ -206,7 +206,7 @@ h3 {
     background-image: linear-gradient(rgba(240, 107, 59, 0.918), rgba(240, 107, 59, 0.918)), url(/img/main_page_header_background.jpg);
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 70%;
 }
 
 .customer-top-text p {
@@ -219,6 +219,7 @@ h3 {
 .customer-top-text h2 {
     color: white;
     font-weight: 400;
+    padding-left: 0;
 }
 
 .customer-top-text span {
